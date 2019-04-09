@@ -25,3 +25,6 @@ In this case I use GU280x16G-7000 Display. You can use any GU7000 series. About 
 
 I modified the Library to at lease fix compile error. but not testing the library yet. 
 
+# Customizable Configuration 
+
+You can change the communication types, baud rate, pinout for arduino and other configuration that need to be done on the real hardware and code itself. for example. My VFD display (GU280x16G-7000) accept Parallel 8bit and Async (RS232) communication method. I prefer the Async because it fit with the ESP-01S use (TX RX and GPIO). Baud rate I will config at 115200 (Maximum) because it's fastest method for my ESP-01S.
