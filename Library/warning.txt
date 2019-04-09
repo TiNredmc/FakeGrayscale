@@ -1,0 +1,2 @@
+WARNING : I do not own any resource contained in this folder. I just add support ESP8266 to the original [Noritake Itron]'s library.
+That's mean Noritake Itron own this library not me.
