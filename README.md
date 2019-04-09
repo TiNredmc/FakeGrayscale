@@ -9,3 +9,17 @@ The display I would like to use is GU280x16G-7000. This display is capable of 8 
 It came across a idea about If we can make the display to display the bitmap data as frame(s) and every frame has it own bright ness level. that's mean we combine many frame into one static image by tricking our eyes using persistence of vision method. 
 
 Start from the initializing progress in void setup then jump to void loop. This begins the process of FakeGrayscale. 
+
+![alt text](https://raw.githubusercontent.com/TiNredmc/FakeGrayscale/master/Principles.png)
+
+
+# Requirement
+
+Software : 
+-Arduino IDE 
+-Noritake Itron GU7000 library https://www.noritake-elec.com/user/download?id=Arduino_Noritake_VFD_GU7000&category=10&type=gu7000
+
+Hardware :
+-In this case I use GU280x16G-7000 Display. You can use any GU7000 series.
+-connector, wires
+
