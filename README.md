@@ -16,10 +16,12 @@ Start from the initializing progress in void setup then jump to void loop. This 
 # Requirement
 
 Software : 
--Arduino IDE 
--Noritake Itron GU7000 library https://www.noritake-elec.com/user/download?id=Arduino_Noritake_VFD_GU7000&category=10&type=gu7000
+Arduino IDE and Noritake Itron GU7000 library https://www.noritake-elec.com/user/download?id=Arduino_Noritake_VFD_GU7000&category=10&type=gu7000
 
 Hardware :
--In this case I use GU280x16G-7000 Display. You can use any GU7000 series.
--connector, wires
+In this case I use GU280x16G-7000 Display. You can use any GU7000 series. About Microcontroller. I use ESP-01S.
+
+# The library
+
+I modified the Library to at lease fix compile error. but not testing the library yet. 
 
