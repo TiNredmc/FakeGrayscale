@@ -24,8 +24,6 @@ GU7000_Serial_Async interface(115200,1, 2, 3); // BAUD RATE,SIN(pin TX),BUSY(pin
 
 Noritake_VFD_GU7000 vfd;
 
-/* 140x16 image "GitHub_Logo (1)" */
-
 
 void setup() {
   pinMode(1, FUNCTION_3);
