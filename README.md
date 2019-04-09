@@ -2,7 +2,7 @@
 Display static grayscale image on GU7000-series VFD display from Noritake Itron.
 
 # How it works ? 
-=
+
 NOTE:It's just the concpet that has not been tested yet. But in theory should work.
 
 The display I would like to use is GU280x16G-7000. This display is capable of 8 levels display brigthness. and It be able to send display command and display data without changing between 2 data input modes. And we can change the brightness everytime !
