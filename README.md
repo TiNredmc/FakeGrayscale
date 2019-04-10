@@ -28,3 +28,20 @@ I modified the Library to at lease fix compile error. but not testing the librar
 # Customizable Configuration 
 
 You can change the communication types, baud rate, pinout for arduino and other configuration that need to be done on the real hardware and code itself. for example. My VFD display (GU280x16G-7000) accept Parallel 8bit and Async (RS232) communication method. I prefer the Async because it fit with the ESP-01S use (TX RX and GPIO). Baud rate I will config at 115200 (Maximum) because it's fastest method for my ESP-01S.
+
+# Installation for Linux
+ 
+ Go get arduino IDE first. then setup the ESP8266. You can watch tut on youtube. After done these then go to these steps down below.
+ ```
+ sudo apt-get install git 
+ git clone https://github.com/TiNredmc/FakeGrayscale.git
+ cd FakeGrayscale
+ mv Library/ GU7000Mod/ 
+ cp GU7000Mod/ /your/dir/to/Arduino/libraries
+ ```
+NOTE: you can use your file manager to rename the Library folder. If you have your original library of Noritake. you need to move to other place. overwish IDE will decides to select multiple same library. cp command is'nt actually required if you prefer file manager. you need to copy the library to the libraries folder in your Arduino folder. You can find tutorial how to install library manually on youtube.
+
+After done steps above. Execute the Arduino IDE and open the sketch in the FakeGrayscale folder. or open the sketch from the folder via file manager.
+
+to check if everything is right. it will looks like this
+![alt text](https://github.com/TiNredmc/FakeGrayscale/blob/master/raw/FGStut.png?raw=true)
