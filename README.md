@@ -47,4 +47,4 @@ to check if everything is right. it will looks like this
 ![alt text](https://github.com/TiNredmc/FakeGrayscale/blob/master/raw/FGStut.png?raw=true)
 
 next thing to do is select the board and flash size
-for my setting I select the generic ESP8266 board. Flashsize selected at 8M(8Mbit is equal to 1Mbyte, bit/8 = byte).
+for my setting I select the generic ESP8266 board. Flashsize selected at 1M (no SPIFFS)
