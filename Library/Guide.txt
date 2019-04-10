@@ -1,0 +1,1 @@
+This library only contained the Async interface method to fit my use (with ESP-01S). Another method of communication is not compiled yet and I don't maintain on other inferface communication type.
