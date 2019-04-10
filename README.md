@@ -47,4 +47,16 @@ to check if everything is right. it will looks like this
 ![alt text](https://github.com/TiNredmc/FakeGrayscale/blob/master/raw/FGStut.png?raw=true)
 
 next thing to do is select the board and flash size
-for my setting I select the generic ESP8266 board. Flashsize selected at 1M (NO SPIFFS)
+for my setting I select the generic ESP8266 board. Flashsize selected at 1M (NO SPIFFS). Flash mode is DIO.
+
+after everything setted up. you need to know how to flash ESP-01 using USB to UART TTL or what ever. after uploaded, connect the Display to ESP-01S by
+
+```
+Display=============ESP-01S
+GND                 GND
+SIN                 TX
+RESET               RX
+BUSY                GPIO2
+```
+NOTE: The display shared same ground with ESP-01S but the display need 5 volt and ESP-01S need 3.3 volt. So you need voltage regulator from 5 volt to 3.3 volt for ESP-01S. Like mine I use The USB to UART. It has 2 voltage rail. one for 5 volt and one for 3.3 volt. I can use this to power up whole project using just USB. According to Display module datasheet. It takes about 200mA. The USB to UART can deliver up to 500mA so that's not the problem.
+
