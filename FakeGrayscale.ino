@@ -5,7 +5,7 @@
 #include <Noritake_VFD_GU7000.h> // include the main header
 #include "BMPs.h" // include our bitmaps hex code (this will put in the MCU's EEPROM)
 
-GU7000_Serial_Async interface(115200,1, 4, 3); // BAUD RATE,SIN(pin TX),BUSY(pin GPOIO2),RESET(pin RX)
+GU7000_Serial_Async interface(115200,1, 4, 3); // BAUD RATE,SIN(pin TX),BUSY(pin GPOIO2 or pin 4),RESET(pin RX)
 
 Noritake_VFD_GU7000 vfd; 
 
