@@ -88,7 +88,7 @@ vfd.GU7000_drawImage_p(bitmap width ,bitmap height ,bitmap's array name); // dis
 
 # Big thanks to 
 ```
-Noritake Itron For the library and the bimap generator tool.
+Noritake Itron For the library and the bitmap hex generator tool.
 noisetexturegenerator.com For the noise images 
 meking66 (UK eBay seller) For selling me the display.
 techcrunch-fr (Chinese eBay seller) For the ESP-01S and the adapter mode.
