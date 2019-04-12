@@ -58,3 +58,29 @@ BUSY                GPIO2
 ```
 NOTE: The display shared same ground with ESP-01S but the display need 5 volt and ESP-01S need 3.3 volt. So you need voltage regulator from 5 volt to 3.3 volt for ESP-01S. Like mine I use The USB to UART. It has 2 voltage rail. one for 5 volt and one for 3.3 volt. I can use this to power up whole project using just USB. According to Display module datasheet. It takes about 200mA. The USB to UART can deliver up to 500mA so that's not the problem.
 
+# Statement lists
+
+```
+vfd.begin(Display width ,Display height); // width and height of Display. Mine is 280x16.
+```
+```
+vfd.interface(interface); // select interface type to communicate with the display.
+```
+```
+vfd.isModelClass(7XXX); // type in your model calss of your display. Mine is 7000.
+vfd.isGeneration('B'); // uncomment in the code if you use the 7XXXB version. 
+```
+```
+vfd.GU7000_reset(); // reset the display module. to clear any ghosting on RAM.
+```
+```
+vfd.GU7000_init(); // Initialize the display.
+```
+```
+vfd.GU7000_clearScreen(); // clear the RAM of the display to make it COMPLETELY blank.
+```
+```
+vfd.GU7000_setScreenBrightness(1-8); // set the brightness from 1 to 8. use this command to create FakeGrayscale brightness.
+```
+```
+vfd.GU7000_drawImage_p(bitmap widht ,bitmap height ,bitmap's array name); // display the bitmap.
