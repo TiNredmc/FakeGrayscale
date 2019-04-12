@@ -28,9 +28,9 @@ void Noritake_VFD_GU7000::GU7000_reset() {
 void Noritake_VFD_GU7000::GU7000_setScreenBrightness(unsigned level) {
     if (level == 0)
         GU7000_displayOff();
-    else if (level <= 100) {
+    else if (level > 0) {
         GU7000_displayOn();
-        command(0x1f, 'X', (level*10 + 120)/125);
+        command(0x1f, 'X', level);
     }
 }
 
