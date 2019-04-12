@@ -1,4 +1,5 @@
 /* THIS CODE IS DESIGNED FOR ESP-01S. Other MCU might works */
+/* This idea is seems useful but not tested. If you see this code. please help to contribute and test this code */
 
 #include <GU7000_Interface.h> // include the Interface hub header
 #include <GU7000_Serial_Async.h> // include the Async comm header
