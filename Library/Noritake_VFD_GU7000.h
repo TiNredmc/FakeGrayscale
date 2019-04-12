@@ -28,7 +28,7 @@ class Noritake_VFD_GU7000 {
     void command(uint8_t prefix, uint8_t group, uint8_t cmd);
     void command_xy(unsigned x, unsigned y);
     void command_xy1(unsigned x, unsigned y);
-    void crlf();
+    
     
     GU7000_Interface *io;    
 
