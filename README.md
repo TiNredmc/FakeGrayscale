@@ -83,4 +83,13 @@ vfd.GU7000_clearScreen(); // clear the RAM of the display to make it COMPLETELY 
 vfd.GU7000_setScreenBrightness(1-8); // set the brightness from 1 to 8. use this command to create FakeGrayscale brightness.
 ```
 ```
-vfd.GU7000_drawImage_p(bitmap widht ,bitmap height ,bitmap's array name); // display the bitmap.
+vfd.GU7000_drawImage_p(bitmap width ,bitmap height ,bitmap's array name); // display the bitmap.
+```
+
+# Big thanks to 
+```
+Noritake Itron For the library and the bimap generator tool.
+noisetexturegenerator.com For the noise images 
+meking66 (UK eBay seller) For selling me the display.
+techcrunch-fr (Chinese eBay seller) For the ESP-01S and the adapter mode.
+```
