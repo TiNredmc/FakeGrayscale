@@ -93,3 +93,10 @@ noisetexturegenerator.com For the noise images
 meking66 (UK eBay seller) For selling me the display.
 techcrunch-fr (Chinese eBay seller) For the ESP-01S and the adapter mode.
 ```
+# Where to buy everything I bought ? 
+```
+GU280x16G-7000 : https://www.ebay.com/itm/NORITAKE-ITRON-GU280X16G-7000-VFD-MODULE-BRAND-NEW/232628526042?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2057872.m2749.l2649
+```
+```
+ESP-01S and adapter : https://www.ebay.com/itm/1PCS-ESP8266-ESP-01S-Serial-WIFI-Wireless-Transceiver-Module-Adapter-PCB-Board/173587512779?ssPageName=STRK%3AMEBIDX%3AIT&var=472268429424&_trksid=p2057872.m2749.l2649
+```
