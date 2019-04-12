@@ -26,15 +26,15 @@ void loop() {
   //start loop for our FakeGreyScale
   
   vfd.GU7000_clearScreen(); // clear Display before next bitmap
-  vfd.GU7000_setScreenBrightness(1); // set brightness for the first frame 
+  vfd.GU7000_setScreenBrightness(2); // set brightness for the first frame 
   vfd.GU7000_drawImage_p(280, 16, d13); // send out the first frame bitmap to the display 
   
   vfd.GU7000_clearScreen(); //clear Display before next bitmap
-  vfd.GU7000_setScreenBrightness(2); // set brightness for the sencond frame
+  vfd.GU7000_setScreenBrightness(4); // set brightness for the sencond frame
   vfd.GU7000_drawImage_p(280, 16, d30); // send out the second frame bitmap to the display
   
   vfd.GU7000_clearScreen(); // clear Display before next bitmap
-  vfd.GU7000_setScreenBrightness(4); // set brightness for the third frame 
+  vfd.GU7000_setScreenBrightness(6); // set brightness for the third frame 
   vfd.GU7000_drawImage_p(280, 16, d46); // send out the thrid frame bitmap to the display
   
   vfd.GU7000_clearScreen(); // clear Display before next bitmap 
