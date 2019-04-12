@@ -45,7 +45,7 @@ After done steps above. Execute the Arduino IDE and open the sketch in the FakeG
 to check if everything is right. it will looks like this
 ![alt text](https://github.com/TiNredmc/FakeGrayscale/blob/master/raw/FGStut.png?raw=true)
 
-next thing to do is select the board setting. you need to use the CheckFlashConfig code to determine the correct flash size and flash mode. 
+next thing to do is select the board setting. you need to use the CheckFlashConfig code to determine the correct flash size and flash mode. Like ESP-01S, The flash size I selected 1M (no SPIFFS) because I don't use OTA update.  
 
 after everything setted up. you need to know how to flash ESP-01 using USB to UART TTL or what ever. after uploaded, connect the Display to ESP-01S by
 
