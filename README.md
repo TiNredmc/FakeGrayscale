@@ -38,7 +38,7 @@ You can change the communication types, baud rate, pinout for arduino and other 
  mv Library/ GU7000Mod/ 
  cp GU7000Mod/ /your/dir/to/Arduino/libraries
  ```
-NOTE: you can use your file manager to rename the Library folder. If you have your original library of Noritake. you need to move to other place. overwish IDE will decides to select multiple same library. cp command is'nt actually required if you prefer file manager. you need to copy the library to the libraries folder in your Arduino folder. You can find tutorial how to install library manually on youtube.
+NOTE: you can use your file manager to rename the Library folder. If you have your original library of Noritake. you need to move to other place. overwish IDE will decides to select multiple same library. cp command isn't actually required if you prefer file manager. you need to copy the library to the libraries folder in your Arduino folder. You can find tutorial how to install library manually on youtube.
 
 After done steps above. Execute the Arduino IDE and open the sketch in the FakeGrayscale folder. or open the sketch from the folder via file manager.
 
