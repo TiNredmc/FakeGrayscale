@@ -23,9 +23,7 @@ class Noritake_VFD_GU7000 {
     void initialState();
     void printNumber(unsigned long number, uint8_t base);
     void printNumber(unsigned x, uint8_t y, unsigned long number, uint8_t base);
-    void command(uint8_t data);
     void us_command(uint8_t group, uint8_t cmd);
-    void command(uint8_t prefix, uint8_t group, uint8_t cmd);
     void command_xy(unsigned x, unsigned y);
     void command_xy1(unsigned x, unsigned y);
     
@@ -39,7 +37,9 @@ public:
     unsigned modelClass;
     bool	generation; // GU-7***B = true
    
-
+    void command(uint8_t prefix, uint8_t group, uint8_t cmd);
+    void command(uint8_t data);
+	
     Noritake_VFD_GU7000() {
         this->modelClass = 7000;
         this->generation = false;
