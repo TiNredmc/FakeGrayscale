@@ -27,18 +27,18 @@ void loop() {
   
   vfd.command(0x0c); // clear Display before next bitmap
   vfd.command(0x1f, 0x58, 2); // set brightness for the first frame 
-  vfd.GU7000_drawImage_p(280, 16, d13); // send out the first frame bitmap to the display 
+  vfd.GU7000_drawImage_p(280, 16, d10); // send out the first frame bitmap to the display 
   
   vfd.command(0x0c); //clear Display before next bitmap
   vfd.command(0x1f, 0x58, 4); // set brightness for the sencond frame
-  vfd.GU7000_drawImage_p(280, 16, d30); // send out the second frame bitmap to the display
+  vfd.GU7000_drawImage_p(280, 16, d20); // send out the second frame bitmap to the display
   
   vfd.command(0x0c); // clear Display before next bitmap
   vfd.command(0x1f, 0x58, 6); // set brightness for the third frame 
-  vfd.GU7000_drawImage_p(280, 16, d46); // send out the thrid frame bitmap to the display
+  vfd.GU7000_drawImage_p(280, 16, d33); // send out the thrid frame bitmap to the display
   
   vfd.command(0x0c); // clear Display before next bitmap 
   vfd.command(0x1f, 0x58, 8); // set brightness for the fourth frame
-  vfd.GU7000_drawImage_p(280, 16, d61); // send out the fourth frame bitmap to the display
+  vfd.GU7000_drawImage_p(280, 16, d56); // send out the fourth frame bitmap to the display
   
 }
