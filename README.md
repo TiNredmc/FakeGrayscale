@@ -85,7 +85,7 @@ vfd.GU7000_setScreenBrightness(1-8); // set the brightness from 1 to 8. use this
 vfd.command(0x1f, 0x58, 1-8);
 ```
 ```
-vfd.GU7000_drawImage_p(bitmap width ,bitmap height ,bitmap's array name); // display the bitmap.
+vfd.GU7000_drawImage_p(bitmap width ,bitmap height ,bitmap's array name); // display the bitmap from PROGMEM.
 ```
 
 # Big thanks to 
