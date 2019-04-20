@@ -45,6 +45,7 @@ private:
 	uint16_t _rx_delay_stopbit;
 	uint16_t _tx_delay;
 	// private static method for timing
+	// I replaced with delay(ms); insteade of assembly delay.
 	/*static inline void tunedDelay(uint16_t delay){ 
 	  uint8_t tmp=0;
 
