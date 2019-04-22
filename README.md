@@ -47,7 +47,7 @@ to check if everything is right. it will looks like this
 
 next thing to do is select the board setting. you need to use the CheckFlashConfig code to determine the correct flash size and flash mode. Like ESP-01S, The flash size I selected 1M (no SPIFFS) because I don't use OTA update.  
 
-after everything setted up. you need to know how to flash ESP-01 using USB to UART TTL or what ever. after uploaded, connect the Display to ESP-01S by
+after everything set  up. you need to know how to flash ESP-01 using USB to UART TTL or what ever. after uploaded, connect the Display to ESP-01S by
 
 ```
 Display=============ESP-01S
