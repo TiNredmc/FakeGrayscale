@@ -1,3 +1,12 @@
+# News Update. THIS PROJECT IS FAILED DUE TO LOW RESPONSIBLE TIME AND ON BOARD MCU SHIFT THINGS OUT TOO SLOW.
+
+Possible workaround
+=
+Talk directly to the display via STM32 (using HAL).
+
+The principle is working on SCDV5544. I will open new project soon.
+=
+
 # FakeGrayscale
 Display static grayscale image on GU7000-series VFD display from Noritake Itron.
 
